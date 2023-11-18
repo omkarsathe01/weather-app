@@ -1,0 +1,26 @@
+{
+  "name": "weather-app-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simpleApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development&& set API_KEY=1fae5d084c5f7325eb9046c43245a059&& node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "start:prod": "set NODE_ENV=production&& set PORT=8080&& node src/server.js",
+    "debug": "set LOG_LEVEL=debug&& set API_KEY=1fae5d084c5f7325eb9046c43245a059&& nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.11.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:fe": "cd weather-web && npm i",
+    "start:fe": "cd weather-web && npm run start",
+    "build:be": "cd weather-app-service && npm i",
+    "start:be": "cd weather-app-service && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
