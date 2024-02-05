@@ -1,4 +1,4 @@
-# Simple Web App Project
+# Simple Weather App Project
 
 This project displays the weather information of the queried City and Country.
 
